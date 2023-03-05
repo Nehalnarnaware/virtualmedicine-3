@@ -3,7 +3,7 @@ import axios from "axios";
 import DoctorSideNavBar from "../common/DoctorSideNavBar";
 import { Link } from "react-router-dom";
 
-let host = "http://3.236.153.242:8080";
+let host = "http://34.220.233.250:8080";
 
 function DoctorAppointment() {
   let [doctorsAppointment, setDoctorsAppointment] = useState([]);

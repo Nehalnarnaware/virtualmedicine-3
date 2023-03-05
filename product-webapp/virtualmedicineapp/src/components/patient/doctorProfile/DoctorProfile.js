@@ -7,7 +7,7 @@ import './DoctorProfile.css'
 import Scheduler from './Schedulers';
 
 
-const host = "http://3.236.153.242:8080";
+const host = "http://34.220.233.250:8080";
 
 export default function DoctorProfile(props) {
 

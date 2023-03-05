@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-let host = "http://3.236.153.242:8080";
+let host = "http://34.220.233.250:8080";
 
 function DoctorProfile() {
   const doctorEmail = JSON.parse(localStorage.getItem("doctorEmail"));

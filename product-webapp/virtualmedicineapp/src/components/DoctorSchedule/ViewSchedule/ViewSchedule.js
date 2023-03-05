@@ -5,7 +5,7 @@ import "./ViewSchedule.css";
 import CreateSchedule from "../CreateSchedule/CreateSchedule";
 import Swal from "sweetalert2";
 
-const host = "http://3.236.153.242:8080";
+const host = "http://34.220.233.250:8080";
 
 export default function ViewSchedule() {
   const doctorEmail = JSON.parse(localStorage.getItem("doctorEmail"));

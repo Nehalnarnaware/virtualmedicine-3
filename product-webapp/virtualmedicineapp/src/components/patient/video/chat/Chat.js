@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ScrollToBottom from "react-scroll-to-bottom";
 
-const host = 'http://3.236.153.242:8080'
+const host = 'http://34.220.233.250:8080'
 
 export default function Chat({socket, username, chatRoom, videoId, room}) {
 
